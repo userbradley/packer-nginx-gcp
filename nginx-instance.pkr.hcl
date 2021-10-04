@@ -8,7 +8,7 @@ packer {
 }
 
 source "googlecompute" "nginx" {
-  project_id           = "scotts-terraform-test"
+  project_id           = "project"
   source_image         = "ubuntu-1604-xenial-v20210928"
   ssh_username         = "bysd"
   ssh_private_key_file = "/Users/bysd/.ssh/id_rsa"
